@@ -37,7 +37,7 @@ class App extends Component {
     
     return (
       <div className="App">
-        <Todos todos = {this.state.todos} markComplete = {this.markComplete} />
+        <Todos todos={this.state.todos} markComplete={this.markComplete} />
       </div>
     );
   }
