@@ -14,6 +14,7 @@ class Todos extends Component {
         key={todo.id}
         todo={todo}
         markComplete={this.props.markComplete.bind(this, todo.id)}
+        delTodo = {this.props.delTodo}
       />
            
         ));
